@@ -22,4 +22,5 @@ local opts = {}
 require("lazy").setup("plugins", opts)
 
 -- Set colorscheme
-vim.cmd.colorscheme("catppuccin-mocha")
+-- vim.cmd.colorscheme("catppuccin-mocha")
+vim.cmd.colorscheme("nordern")
