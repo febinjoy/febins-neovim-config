@@ -24,3 +24,11 @@ require("lazy").setup("plugins", opts)
 -- Set colorscheme
 -- vim.cmd.colorscheme("catppuccin-mocha")
 vim.cmd.colorscheme("nordern")
+
+-- Add transparent background
+vim.cmd([[
+  highlight Normal guibg=none
+  highlight NonText guibg=none
+  highlight Normal ctermbg=none
+  highlight NonText ctermbg=none
+]])
