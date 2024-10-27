@@ -1,3 +1,4 @@
+-- UI Theme
 return {
   "fcancelinha/nordern.nvim",
   name = "nordern",
