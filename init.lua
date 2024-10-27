@@ -24,6 +24,7 @@ require("lazy").setup("plugins", opts)
 -- Set colorscheme
 -- vim.cmd.colorscheme("catppuccin-mocha")
 vim.cmd.colorscheme("nordern")
+-- vim.cmd.colorscheme("kanagawa")
 
 -- Add transparent background
 vim.cmd([[
