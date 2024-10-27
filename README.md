@@ -18,7 +18,7 @@ This repository contains my customized Neovim configuration, inspired by the "Ne
 
 1. Clone the repository:
    ```sh
-   git clone git@github.com:febinjoy/neovim-config.git ~/.config/nvim
+   git clone git@github.com:febinjoy/febins-neovim-config.git ~/.config/nvim
    ```
 Open Neovim and enjoy your customized setup!
 
