@@ -16,6 +16,21 @@ This repository contains my customized Neovim configuration, inspired by the "Ne
 - **Code suggestion and auto completion**
 - And much more...
 
+## Prerequisites
+Ensure the following packages are installed on your system before proceeding:
+
+- Python: [Installation Instructions](https://www.python.org/downloads/)
+- pip: Python package installer, included with Python installation.
+- unzip: Utility for unzipping files, available through your package manager.
+- Node.js: [Installation Instructions](https://nodejs.org/en/download/)
+- npm: Node.js package manager, included with Node.js installation.
+- ripgrep: [Installation Instructions](https://github.com/BurntSushi/ripgrep#installation)
+- grep: Command-line utility, typically pre-installed on most systems.
+- Go (Optional): [Installation Instructions](https://golang.org/doc/install)
+- .NET SDK (Optional): [Installation Instructions](https://dotnet.microsoft.com/download)
+
+Ensure each of these dependencies is properly installed and accessible from your command line.
+
 ## Installation
 
 Clone the repository:
@@ -25,6 +40,8 @@ git clone git@github.com:febinjoy/febins-neovim-config.git ~/.config/nvim
 ## Usage
 
 Explore the various features and plugins to enhance your coding experience. Feel free to further customize the configuration to meet your workflow requirements using Lazy and Mason.
+
+Details about the custom keymaps could be found [here](https://github.com/febinjoy/febins-neovim-config/blob/master/lua/config/keymaps.lua)
 
 ## Acknowledgements
 
