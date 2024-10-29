@@ -36,7 +36,7 @@ Ensure each of these dependencies is properly installed and accessible from your
 
 Clone the repository:
 ```
-git clone git@github.com:febinjoy/febins-neovim-config.git ~/.config/nvim
+git clone https://github.com/febinjoy/febins-neovim-config.git ~/.config/nvim
 ```
 ## Usage
 
