@@ -78,6 +78,12 @@ vim.keymap.set("n", "<C-j>", "<cmd><C-U>TmuxNavigateDown<CR>")
 vim.keymap.set("n", "<C-k>", "<cmd><C-U>TmuxNavigateUp<CR>")
 vim.keymap.set("n", "<C-l>", "<cmd><C-U>TmuxNavigateRight<CR>")
 
+-- Vim Test
+vim.keymap.set("n", "<leader>t", ":TestNearest<CR>")
+vim.keymap.set("n", "<leader>a", ":TestSuite<CR>")
+vim.keymap.set("n", "<leader>l", ":TestLast<CR>")
+vim.keymap.set("n", "<leader>g", ":TestVisit<CR>")
+
 -- Debugging
 vim.keymap.set("n", "<F5>", function()
 	require("dap").continue()
