@@ -28,6 +28,7 @@ Ensure the following packages are installed on your system before proceeding:
 - grep: Command-line utility, typically pre-installed on most systems.
 - Go (Optional): [Installation Instructions](https://golang.org/doc/install)
 - .NET SDK (Optional): [Installation Instructions](https://dotnet.microsoft.com/download)
+- xclip - Some distros will need to have this installed for copying to clipboard.
 
 Ensure each of these dependencies is properly installed and accessible from your command line.
 
