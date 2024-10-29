@@ -58,6 +58,12 @@ vim.keymap.set("n", "<leader>bf", ":Neotree buffers reveal float<cr>") -- Show a
 vim.keymap.set("n", "<leader>gp", ":Gitsigns preview_hunk<CR>", {}) -- Preview the difference with git in a floating window
 vim.keymap.set("n", "<leader>gt", ":Gitsigns toggle_current_line_blame<CR>", {}) -- Toggle display of git blame on each line
 
+-- Navigate vim keys better
+vim.keymap.set("n", "<C-h>", ":wincmd h<CR>")
+vim.keymap.set("n", "<C-j>", ":wincmd j<CR>")
+vim.keymap.set("n", "<C-k>", ":wincmd k<CR>")
+vim.keymap.set("n", "<C-l>", ":wincmd l<CR>")
+
 -- LSP Config Key Maps
 vim.keymap.set("n", "K", vim.lsp.buf.hover, {}) -- Hover information lika a tooltip
 vim.keymap.set("n", "<leader>gD", vim.lsp.buf.declaration, {}) -- Show declarations
@@ -65,6 +71,12 @@ vim.keymap.set("n", "<leader>gd", vim.lsp.buf.definition, {}) -- Show definition
 vim.keymap.set("n", "<leader>gr", vim.lsp.buf.references, {}) -- Show references
 vim.keymap.set({ "n", "v" }, "<leader>ca", vim.lsp.buf.code_action, {}) -- Code Actions window
 vim.keymap.set("n", "<leader>gf", vim.lsp.buf.format, {}) -- Format current document
+
+-- Vim TMUX Navigator
+vim.keymap.set("n", "<C-h>", "<cmd><C-U>TmuxNavigateLeft<CR>")
+vim.keymap.set("n", "<C-j>", "<cmd><C-U>TmuxNavigateDown<CR>")
+vim.keymap.set("n", "<C-k>", "<cmd><C-U>TmuxNavigateUp<CR>")
+vim.keymap.set("n", "<C-l>", "<cmd><C-U>TmuxNavigateRight<CR>")
 
 -- Debugging
 vim.keymap.set("n", "<F5>", function()
