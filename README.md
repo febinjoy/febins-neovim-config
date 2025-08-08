@@ -32,6 +32,20 @@ Ensure the following packages are installed on your system before proceeding:
 
 Ensure each of these dependencies is properly installed and accessible from your command line.
 
+Ensure NeoVim is the latest version. 
+
+```bash
+nvim --version
+```
+
+Ubuntu often ships older versions. 
+
+```bash
+sudo add-apt-repository ppa:neovim-ppa/unstable
+sudo apt update
+sudo apt install neovim
+```
+
 ## Installation
 
 Clone the repository:
