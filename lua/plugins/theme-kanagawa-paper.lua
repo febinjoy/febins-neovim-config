@@ -24,6 +24,7 @@ return {
         NeoTreeNormalNC     = { bg = "none", fg = colors.palette.fujiWhite },
         NeoTreeEndOfBuffer  = { bg = "none", fg = "none" },
         NeoTreeWinSeparator = { fg = colors.palette.sumiInk4, bg = "none" },
+        AlphaLogo           = { fg = "#7D574B", bg = "none" },
       }
     end,
   },
