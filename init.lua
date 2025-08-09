@@ -22,10 +22,12 @@ local opts = {}
 require("lazy").setup("plugins", opts)
 
 -- Set colorscheme
-vim.cmd.colorscheme("nightfox")
--- vim.cmd.colorscheme("catppuccin-mocha")
--- vim.cmd.colorscheme("nordern")
--- vim.cmd.colorscheme("kanagawa")
+--vim.cmd.colorscheme("nightfox")
+--vim.cmd.colorscheme("catppuccin-mocha")
+--vim.cmd.colorscheme("nordern")
+--vim.cmd.colorscheme("kanagawa")
+--vim.cmd.colorscheme("rose-pine")
+vim.cmd.colorscheme("kanagawa-paper")
 
 -- Add transparent background
 vim.cmd([[
