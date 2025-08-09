@@ -46,6 +46,45 @@ sudo apt update
 sudo apt install neovim
 ```
 
+Mac:
+```bash
+brew update
+brew upgrade neovim
+```
+
+### Dependencies
+
+#### Ubuntu
+
+```bash
+sudo npm install -g prettier
+sudo npm install -g write-good
+sudo npm install -g eslint_d
+npm install -g tree-sitter-cli
+go install github.com/mgechev/revive@latest
+export PATH="$HOME/go/bin:$PATH"
+sudo apt install pylint isort codespell
+```
+
+#### Mac
+
+```bash
+sudo npm install -g prettier
+sudo npm install -g write-good
+sudo npm install -g eslint_d
+npm install -g tree-sitter-cli
+go install github.com/mgechev/revive@latest
+export PATH="$HOME/go/bin:$PATH"
+brew install codespell
+brew install stylua
+brew install pylint
+brew install isort
+brew install black                                                                                                                                                         
+brew install luarocks
+brew install wget
+brew install fd
+```
+
 ## Installation
 
 Clone the repository:
