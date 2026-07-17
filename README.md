@@ -61,7 +61,6 @@ sudo npm install -g prettier
 sudo npm install -g write-good
 sudo npm install -g eslint_d
 npm install -g tree-sitter-cli
-go install github.com/mgechev/revive@latest
 export PATH="$HOME/go/bin:$PATH"
 sudo apt install pylint isort codespell
 ```
@@ -73,7 +72,6 @@ sudo npm install -g prettier
 sudo npm install -g write-good
 sudo npm install -g eslint_d
 npm install -g tree-sitter-cli
-go install github.com/mgechev/revive@latest
 export PATH="$HOME/go/bin:$PATH"
 brew install codespell
 brew install stylua
@@ -104,9 +102,9 @@ A huge thank you to [Typecraft Dev](https://www.youtube.com/@typecraft_dev) for 
 - https://github.com/goolord/alpha-nvim
 - https://github.com/akinsho/bufferline.nvim
 - https://github.com/catppuccin/nvim
+- https://github.com/greggh/claude-code.nvim
 - https://github.com/hrsh7th/cmp-nvim-lsp
 - https://github.com/L3MON4D3/LuaSnip
-- https://github.com/Exafunction/codeium.vim
 - https://github.com/rafamadriz/friendly-snippets
 - https://github.com/lewis6991/gitsigns.nvim
 - https://github.com/rebelot/kanagawa.nvim
