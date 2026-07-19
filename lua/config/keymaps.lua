@@ -22,7 +22,7 @@ vim.keymap.set("n", "<C-q>", ":wqa<cr>")
 vim.keymap.set(
 	"n",
 	"<leader>imd",
-	":MasonInstall stylua prettier pylint black isort pylint codespell eslint_d shellcheck write-good revive netcoredbg<cr>"
+	":MasonInstall stylua prettier pylint black isort pylint codespell eslint_d shellcheck write-good revive netcoredbg delve debugpy<cr>"
 )
 
 -- Buffers
